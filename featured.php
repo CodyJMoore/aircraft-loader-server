@@ -15,6 +15,7 @@ header("Access-Control-Allow-Origin: *");
 	{"name": "737-800 (United) by Yotam", "id": 324, "url": "https://aircraft-loader.appspot.com/load.php?id=324"},
 	{"name": "737-800 (Delta) by Yotam", "id": 325, "url": "https://aircraft-loader.appspot.com/load.php?id=325"},
 	{"name": "737-800 (American old) by Yotam", "id": 326, "url": "https://aircraft-loader.appspot.com/load.php?id=326"},
+	{"name": "737-800 (Tech Air) [Livery by THD2]", "id": 341, "url": "https://aircraft-loader.appspot.com/load.php?id=341"},
 	
 	{"name": "777-200 (ELAL) by Anonymous Contributor", "id": 334, "url": "https://aircraft-loader.appspot.com/load.php?id=334"},
 	{"name": "777-200 (Alitalia) [★New★]", "id": 335, "url": "https://aircraft-loader.appspot.com/load.php?id=335"},

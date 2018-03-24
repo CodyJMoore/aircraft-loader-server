@@ -24,6 +24,7 @@ header("Access-Control-Allow-Origin: *");
 error_reporting(E_ALL);
 $id = $_GET["id"];
 $definition = file_get_contents("gs://aircraft-bucket/" . $id . (isset($_GET["cockpit"]) ? "/cockpit.json" : "/aircraft.json"));
+$definition = str_replace("http://", "https://", $definition);
 $descriptor = explode(PHP_EOL, file_get_contents("gs://aircraft-bucket/" . $id . "/descriptor.txt"));
 $encoded = base64_encode($definition);
 
